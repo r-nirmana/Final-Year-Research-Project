@@ -44,14 +44,17 @@ METHODOLOGY
 
 The system can be discussed in three main parts. They are inputs 
 to the system, the process and the outputs of the system. 
+
 a)Data Collection.
 We have taken input audio samples in three main ways. We have used already existing data 
 collection , Vehicle sounds collected in the university premises and the sounds collected in the 
 Laboratory.
+
 • Existing audio sound Data collection : 
 This data collection was consisted of engine sounds and horn sounds of different vehicles. 
 This data set was named as Urbansounds8k and was used in identifying different audio 
 features.
+
 • Audio Data collection done in the university premises
 Sounds of vehicles were collected in campus premises. This sound collection includes 
 sounds of cars, three wheelers and motor bikes. These samples were collected near the 
@@ -64,6 +67,7 @@ samples were about one to two minutes and consisted of both approaching and leav
 sounds. Then we have trimmed down the audio and obtained the approaching and leaving 
 samples separately so that we can use them in extracting features separately and classifying 
 them.
+
 • Audio data collection done in the laboratory
 Data samples were collected in the laboratory on the basis of approaching and leaving 
 classes according to different frequencies. We have created a lab setup with microphones, 
