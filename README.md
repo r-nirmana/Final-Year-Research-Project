@@ -76,13 +76,17 @@ the microphone setup. The microphones were fixed as shown in the figure(Fig ) so
 microphones avoid unnecessary sounds as the microphones were highly sensitive. The 
 package was covered from a sponged layer. Then the fixed microphones were connected 
 to the focusrite scarlett 2i2 and the audio samples were recorded in the following procedure.
+
 o Sound Samples of frequencies 100Hz, 500 Hz , 1KHz , 1200 Hz and 1500 Hz were 
 played using the speaker.
+
 o Then the recording was started and the Microphones were moved back and forth 
 between the starting point and the speaker.
+
 o From starting point to the speaker the approaching audio was recorded for all the 
 above mentioned frequencies and then starting from the speaker moved back to 
 record the leaving sample of the different frequencies.
+
 o All these audio samples were captured and stored for further feature extraction and 
 classification purposes.
 
