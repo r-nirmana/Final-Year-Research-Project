@@ -40,6 +40,48 @@ wide range of applications, including speech to text translation, sound recognit
 identification, automatic speech recognition, and virtual assistants. And in this study we have used 
 audio signal processing in detecting whether a vehicle is approaching a user.
 
+METHODOLOGY
+
+The system can be discussed in three main parts. They are inputs 
+to the system, the process and the outputs of the system. 
+a)Data Collection.
+We have taken input audio samples in three main ways. We have used already existing data 
+collection , Vehicle sounds collected in the university premises and the sounds collected in the 
+Laboratory.
+• Existing audio sound Data collection : 
+This data collection was consisted of engine sounds and horn sounds of different vehicles. 
+This data set was named as Urbansounds8k and was used in identifying different audio 
+features.
+• Audio Data collection done in the university premises
+Sounds of vehicles were collected in campus premises. This sound collection includes 
+sounds of cars, three wheelers and motor bikes. These samples were collected near the 
+Jagda gate in NITR between 6.00pm and 9.00 pm. All these samples were collected by the 
+microphones embedded in smartphones. Recordings were done in between a spot where 
+we could capture both approaching and leaving sounds of the vehicles. Recordings were 
+started when we observe a vehicle in a distance of about 100 meters and the recordings 
+were ended when the vehicles were passed and reached 100 meters from the spot. So each 
+samples were about one to two minutes and consisted of both approaching and leaving 
+sounds. Then we have trimmed down the audio and obtained the approaching and leaving 
+samples separately so that we can use them in extracting features separately and classifying 
+them.
+• Audio data collection done in the laboratory
+Data samples were collected in the laboratory on the basis of approaching and leaving 
+classes according to different frequencies. We have created a lab setup with microphones, 
+speakers and recorded the audio samples with focusrite scarlett 2i2. First we have arranged 
+the microphone setup. The microphones were fixed as shown in the figure(Fig ) so that the 
+microphones avoid unnecessary sounds as the microphones were highly sensitive. The 
+package was covered from a sponged layer. Then the fixed microphones were connected 
+to the focusrite scarlett 2i2 and the audio samples were recorded in the following procedure.
+o Sound Samples of frequencies 100Hz, 500 Hz , 1KHz , 1200 Hz and 1500 Hz were 
+played using the speaker.
+o Then the recording was started and the Microphones were moved back and forth 
+between the starting point and the speaker.
+o From starting point to the speaker the approaching audio was recorded for all the 
+above mentioned frequencies and then starting from the speaker moved back to 
+record the leaving sample of the different frequencies.
+o All these audio samples were captured and stored for further feature extraction and 
+classification purposes.
+
 
 
 
