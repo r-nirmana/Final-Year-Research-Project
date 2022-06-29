@@ -90,6 +90,36 @@ record the leaving sample of the different frequencies.
 o All these audio samples were captured and stored for further feature extraction and 
 classification purposes.
 
+b)Processing the Audio Signals
+
+In the process of detecting approaching vehicles we have to follow the steps given below when 
+processing the captured audio signals.
+
+• Identifying different audio features
+Audio features can be identified in either time domain,frequency domain or in both together and 
+some of the main audio features are given below.
+
+We have studied about the features which are available in audio signals and decided to extract 
+some of the features to check which of those features can be used in classifying the audio signals 
+in approaching and leaving classes.
+
+Amplitude Envelope,Root mean Square Energy,Zero Crossing rate,Spectrograms.etc.
+
+We have decided to proceed with the spectrograms feature for the classification and extracted spectrograms
+from all the data samples. Extracted spectrograms are attached in files so that you can use those in future
+work as data samples.
+
+c) Classification of the signals
+
+We have used CNN to classify the audio signals. Convolutional neural networks, or CNNs, are a 
+type of deep learning algorithm that excels at learning images. This is due to their ability to learn 
+patterns that are both translation invariant and spatially hierarchical. For the classification of the 
+signals, we have trained a CNN model on the spectrograms we extracted. We have implemented 
+keras API which runs on top of tensorflow, and we have used binary image classification with the 
+obtained spectrogram dataset. We have used a sequential model which consists of conv2D, 
+Maxpooling2D , Dense ad flatten layers. Model was trained and tested and the results were 
+obtained successfully
+
 
 
 
